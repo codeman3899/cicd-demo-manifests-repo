@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: todo-api
-          image: xhazem043/todo-api:12
+          image: xhazem043/todo-api:17
           ports:
             - containerPort: 8000
           env:
@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: todo-frontend
-          image: xhazem043/todo-app:12
+          image: xhazem043/todo-app:17
           ports:
             - containerPort: 80
 ---
